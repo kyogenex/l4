@@ -17,10 +17,10 @@
                 <div class="container">
                     <ul class="nav">  
                         @if(!Auth::check())
-                        <li>{{ HTML::link('users/register', 'Register') }}</li>   
-                        <li>{{ HTML::link('users/login', 'Login') }}</li>   
+                        <li>{{ HTML::link('register', 'Register') }}</li>   
+                        <li>{{ HTML::link('login', 'Login') }}</li>   
                         @else
-                        <li>{{ HTML::link('users/logout', 'logout') }}</li>
+                        <li>{{ HTML::link('logout', 'logout') }}</li>
                         @endif
                     </ul>  
                 </div>
