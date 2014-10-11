@@ -1,3 +1,3 @@
-# Authentication With Laravel 4 Source Code
+# Laravel Framework
 
-The source code for the Nettuts+ article, Authentication With Laravel 4 by Andrew Perkins.
+I will update this sooner.
